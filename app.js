@@ -8,6 +8,9 @@ app.use(bodyParser.json());
 app.post('/SIA', function (req, res) {
 
     console.log('recieved a request')
+    console.log(req?.body)
+    console.log(req?.params)
+    console.log(req?.headers)
     return res.send({
         success: true
     });
