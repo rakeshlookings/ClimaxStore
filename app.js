@@ -12,7 +12,7 @@ app.post('/SIA', function (req, res) {
         success: true
     });
 });
-const PORT = 3001
+const PORT = 4000
 app.listen(PORT, function(){
     console.log(`Server listening on port ${PORT}`);
 });
